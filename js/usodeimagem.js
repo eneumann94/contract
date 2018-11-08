@@ -101,7 +101,7 @@ function definirAgente() {
         } else {
             console.log("Resultado");
             console.log(resultado);
-            statusTransacao.innerHTML = "Transação enviada ao Blockchain Ethereum. Faça a monitoração pelo hash: <a href='https://rinkeby.etherscan.io/tx/" + resultado + "'></a>";
+            statusTransacao.innerHTML = "Transação enviada ao Blockchain Ethereum. Faça a monitoração pelo hash: <a href='https://rinkeby.etherscan.io/tx/" + resultado + "'>resultado</a>";
         }
     });
 }
